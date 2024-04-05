@@ -53,7 +53,7 @@ public class Main {
             System.out.println("4. Exit");
 
             int choice = scanner.nextInt();
-            scanner.nextLine(); // Consume newline
+            scanner.nextLine();
 
             switch (choice) {
                 case 1:
@@ -69,14 +69,14 @@ public class Main {
                     String email = scanner.nextLine();
                     System.out.print("Age: ");
                     int age = scanner.nextInt();
-                    scanner.nextLine(); // Consume newline
+                    scanner.nextLine();
                     system.addUser(new User(id, firstName, lastName, email, age));
                     System.out.println("User added successfully.");
                     break;
                 case 2:
                     System.out.print("Enter the ID of the user to delete: ");
                     int deleteId = scanner.nextInt();
-                    scanner.nextLine(); // Consume newline
+                    scanner.nextLine();
                     system.deleteUser(deleteId);
                     System.out.println("User deleted successfully.");
                     break;
