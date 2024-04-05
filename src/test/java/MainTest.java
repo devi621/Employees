@@ -17,7 +17,7 @@ public class MainTest {
 
     @Test
     public void testAddUser() throws UserManagementException {
-        system.addUser(new User(5, "Alice", "Smith", "alice@example.com", 35));
+        system.addUser(new User(3, "Alice", "Smith", "alice@example.com", 35));
         assertNotNull(system.getUserById(3), "User with id 3 should exist");
     }
 
