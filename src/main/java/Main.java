@@ -23,7 +23,7 @@ public class Main {
                     System.out.println("Enter user details:");
                     System.out.print("ID: ");
                     int id = scanner.nextInt();
-                    scanner.nextLine(); // Consume newline
+                    scanner.nextLine(); 
                     System.out.print("First Name: ");
                     String firstName = scanner.nextLine();
                     System.out.print("Last Name: ");
